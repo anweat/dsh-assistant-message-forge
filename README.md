@@ -1,5 +1,12 @@
 # dsh-assistant-message-forge（消息锻造台）
 
+> [!IMPORTANT]
+> **维护状态：已停止功能更新。** 本插件由
+> [`dsh-context-console`](https://github.com/anweat/dsh-context-console)
+> 完整继承；新插件保留消息锻造、上下文卡片、sessionlog 导入与保守修复能力，
+> 并新增轨迹墙、Prompt / Skill / MCP / Tools 管理和缓存观察。现有 `0.1.1`
+> 版本继续保留供回滚使用，新部署请迁移到 `dsh-context-console`。
+
 双面（Host + Client）DSH 插件：在会话区新增一个 **消息锻造台** 页签，核心是
 **详细上下文解析 → 记录 → 卡片化 → 动态编辑 → 开放修改**：
 
