@@ -3,6 +3,8 @@
 双面（Host + Client）DSH 插件：在会话区新增一个 **消息锻造台** 页签，核心是
 **详细上下文解析 → 记录 → 卡片化 → 动态编辑 → 开放修改**：
 
+![DSH 消息锻造台](./docs/images/dsh-message-forge.png)
+
 1. `context/refresh` 把当前会话完整解析成一张张 `ContextCard`
    （turn/step 边界、user/assistant 消息、tool call/result、request header、
    其他 log-only 事件；`assistant/chunk` 按轮折叠计数）；
