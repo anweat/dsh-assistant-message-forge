@@ -1,6 +1,6 @@
 {
   "name": "dsh-assistant-message-forge",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH 助手消息锻造台：可创建/修改/注入测试用 assistant 消息，并可导入识别 session.jsonl(.zstd) 会话日志。",
   "type": "module",
   "main": "lib/index.js",
@@ -38,6 +38,7 @@
     "lib/**/*.js",
     "lib/types/**/*.d.ts",
     "cordis.patch.yml",
+    "docs",
     "src",
     "README.md",
     "LICENSE"
